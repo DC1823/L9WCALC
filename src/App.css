@@ -1,38 +1,141 @@
-.App {
-  text-align: center;
+.calcu {
+  width: 350px;
+  height: 525px;
+  background-color: #000;
+  border-radius: 5px;
+  margin-left: 20px;
+  margin-top: 50px;
+  border: 3px #1c1c1c outset;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pantalla1 {
+  background-color: #c5f0c5;
+  width: 315px;
+  height: 60px;
+  position: absolute;
+  left: 50px;
+  top: 100px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: flex-start;
+  border-radius: 5px;
+  align-self: center;
 }
 
-.App-link {
-  color: #61dafb;
+.pantalla2 {
+  background-color: #c5f0c5;
+  width: 315px;
+  height: 60px;
+  position: absolute;
+  left: 50px;
+  top: 150px;
+  border-top: transparent;
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  display: flex;
+  justify-content: flex-end;
+  border-radius: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fila1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 270px;
+  margin-right: 15px;
+}
+
+.b7,
+.b8,
+.b9,
+.del,
+.ac {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  border: 3px #f0eaf2 outset;
+  background-color: #8e8e8e;
+}
+
+.b7:active,
+.b8:active,
+.b9:active,
+.del:active,
+.ac:active {
+  background-color: #3c3c3c;
+  border-color: #ffff;
+  border: inset;
+}
+
+.fila2,
+.fila3,
+.fila4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 25px;
+  margin-right: 15px;
+}
+
+.b4,
+.b5,
+.b6,
+.X,
+.➗,
+.b1,
+.b2,
+.b3,
+.mas,
+.--,
+.b0,
+.dot,
+.ans,
+.mod,
+.mm {
+  width: 50px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  border: 3px #f0eaf2 outset;
+  background-color: #8e8e8e;
+}
+
+.b4:active,
+.b5:active,
+.b6:active,
+.X:active,
+.➗:active,
+.b1:active,
+.b2:active,
+.b3:active,
+.mas:active,
+.--:active,
+.b0:active,
+.dot:active,
+.ans:active,
+.mod:active,
+.mm:active {
+  background-color: #3c3c3c;
+  border-color: #ffff;
+  border: inset;
+}
+
+.eq {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  font-family: 'Roboto', sans-serif;
+  border: 3px #949494 outset;
+  background-color: #8e8e8e;
+  font-size: 20px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+
+.eq:active {
+  background-color: #3c3c3c;
+  border-color: #ffff;
+  border: inset;
 }
